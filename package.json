@@ -2,6 +2,10 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.5.5"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
@@ -16,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -25,10 +29,6 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "engines": {
-    "node": "16.13.0"
-    
   },
   "browserslist": {
     "production": [
