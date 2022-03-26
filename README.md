@@ -1,3 +1,3 @@
 https://muafak.netlify.app/
 
-<img src="public/assets/portfol.png" width="128"/>
+<img src="public/assets/portfol.png" />
